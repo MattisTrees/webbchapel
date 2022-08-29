@@ -1,0 +1,145 @@
+body {
+}
+
+
+h1  {
+  font-family: monospace;
+}
+
+marquee  {
+  color: rgb(250, 0, 250);
+}
+
+h1 { font-weight: 400; }
+
+code { 
+  color: #e4cb58;
+  font: inherit;
+}
+
+p  {
+  
+  font-family: monospace;
+  z-index: 500;
+  display: flex;
+}
+
+.links {
+  font-size: 30px;
+  color: red;
+}
+
+.notsure {
+  float: right;
+}
+
+.new_links_wrapper {
+  /*text-align: center; */
+  margin-left: 150px;
+  position:absolute;
+  top: 500px;
+  left: 200px;
+}
+
+.new_links a {
+  font-size:50px;
+  color: red;
+}
+
+.whole_width {
+  width: 100%;
+  }
+
+.iframe1 {
+  display: block;
+  margin: auto;
+}
+
+.container {
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  color: red;
+  border: 10px solid purple;
+}
+
+.hithere {
+  right: 400px;
+  animation: jumptext 2s steps(8, start) infinite;
+}
+
+.skull3 {
+  width: 200px;
+  left: 200px;
+  z-index: 500;
+}
+
+.geocities {
+  background-image: url("https://68.media.tumblr.com/b51741c63340eb3a12fde5f509cbb689/tumblr_n5jbmvB0ZI1r2inbto1_500.gif");
+  
+}
+
+.vietnam {
+}
+
+.lavalamp {
+   width: 200px;
+  top: 0px;
+  left: 950px;
+   animation: jumptext 2s steps(8, start) infinite;
+  z-index: 10;
+}
+
+.lavalamp2 {
+ width: 200px;
+ top: 0px;
+ left: 800px;
+ animation: jumptext 2s steps(8, start) infinite;
+ z-index: 50;
+} 
+
+@keyframes jumptext {
+	0% {
+		transform: rotate(0deg);
+		letter-spacing: normal;
+	}
+	50% {
+		transform: rotate(180deg);
+		color: blue;
+		letter-spacing: 0.1em;
+		text-shadow:
+		1px  1px  0 fade(shadow-for-blue, 100%),
+		2px  2px  0 fade(shadow-for-blue, 80%),
+		3px  3px  0 fade(shadow-for-blue, 60%),
+		4px  4px  0 fade(shadow-for-blue, 40%),
+		5px  5px  0 fade(shadow-for-blue, 20%);
+	 }
+	100% {
+		transform: rotate(360deg);
+		color: yellow;
+		letter-spacing: normal;
+	}
+} 
+
+
+@media only screen and (max-width: 860px) {
+  
+  .new_links_wrapper {
+    margin-left: default;
+    position:default;
+    top: default;
+    left: default;
+    margin: auto;
+  }
+
+  .geocities{
+    width: 100%;
+  }
+
+  .vietnam {
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+  }
+
+}

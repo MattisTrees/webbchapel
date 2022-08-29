@@ -1,0 +1,16 @@
+body  {
+  background: url("https://68.media.tumblr.com/b51741c63340eb3a12fde5f509cbb689/tumblr_n5jbmvB0ZI1r2inbto1_500.gif") 
+
+}
+
+
+.hats{
+  
+  width: 75%;
+    padding: 70px;
+    margin: 70px;
+  text-align: center;
+  color: red;
+  border: 10px solid purple;
+  font-size: 25px;
+}

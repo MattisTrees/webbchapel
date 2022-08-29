@@ -1,0 +1,54 @@
+body{
+  background-image: url(https://web.archive.org/web/20091019044955/http://www.geocities.com/aeromech_99a/WallpaperBlueBlinkingStars.gif)
+}
+.tom{
+  width: 600px;
+  position: relative;
+  left: 300px;
+  top: 200px;
+  z-index: 200;
+}
+.logo{
+  position: relative;
+  bottom: 200px;
+  right: 280px;
+}
+.brad{
+  position: relative;
+ 
+  z-index: 300;
+}
+.blood{
+  position: relative;
+  bottom: 500px;
+  z-index: 600;
+  right: 170px;
+}
+.candle{
+  position: relative;
+  bottom: 500px;
+  width: 75px;
+}
+.candle2{
+   position: relative;
+  bottom: 500px;
+  width: 75px;
+  right: 1000px;
+}
+.tomgif{
+  position: relative;
+  left: 900px;
+  bottom: 300px;
+}
+.dunst{
+  position: relative;
+  bottom: 800px;
+  right: 400px;
+  width: 400px;
+}
+.neworleans{
+  position: relative;
+  bottom: 800px;
+  z-index: -400;
+  left: 400px;
+}
